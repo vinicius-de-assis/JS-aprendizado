@@ -1,8 +1,9 @@
-/*Centralizar legenda e seletor de cores no centro da pagina --> Para isso usamos o flex do css*/
+/* Centralizar legenda e seletor de cores no centro da página --> Usando flex do CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Zera as margens, preenchimentos e ajusta o modelo de caixa para incluir bordas e preenchimento no tamanho total */
 }
 
 main {
@@ -12,6 +13,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* Centraliza vertical e horizontalmente os elementos dentro do main */
 }
 
 div {
@@ -22,12 +24,14 @@ div {
     background-color: darkgray;
     padding: 20px;
     border-radius: 5px;
+    /* Define um contêiner para centralizar os elementos internos, com fundo cinza escuro, preenchimento e bordas arredondadas */
 }
 
 span {
     color: #fff;
     font-size: 25px;
     margin-bottom: 15px;
+    /* Estiliza a legenda: cor branca, tamanho de fonte 25px e margem inferior */
 }
 
 input {
@@ -35,4 +39,5 @@ input {
     height: 36px;
     width: 56px;
     cursor: pointer;
+    /* Estiliza o seletor de cores: sem borda, altura e largura definidas, cursor de ponteiro */
 }
