@@ -1,1 +1,1 @@
-# JS-aprendizado
+# Alguns estudos sobre JavaScript
