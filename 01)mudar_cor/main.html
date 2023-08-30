@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Definição da codificação de caracteres -->
     <meta charset="UTF-8">
+    <!-- Indicação para o Internet Explorer usar a versão mais recente de renderização -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Configuração da escala inicial para dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página exibido na aba do navegador -->
     <title>Cor de fundo</title>
+    <!-- Importação do arquivo de estilo CSS externo -->
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <!-- Corpo da página -->
     <main class="container">
+        <!-- Contêiner principal com classe "container" -->
         <div>
+            <!-- Div para envolver os elementos de seleção de cor -->
             <span>Selecione uma cor:</span>
-            <input type="color" onchange="onChangeBg()"/> 
+            <!-- Texto indicando o propósito do input de cor -->
+            <input type="color" onchange="onChangeBg()"/>
+            <!-- Input de seleção de cor que chama a função 'onChangeBg()' quando a cor é alterada -->
         </div>
     </main>
+    <!-- Importação do arquivo de script JavaScript externo -->
     <script src="script.js"></script>
 </body>
 </html>
